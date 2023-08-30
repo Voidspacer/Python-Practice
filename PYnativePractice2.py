@@ -10,14 +10,13 @@ def information():
 information()
 
 
-# Exercise 2: Create a function with variable length of arguments.
+# Exercise 2: Return multiple values from a function.
 """
-Write a program to create function func1() to accept a variable length of arguments and print their value.
+Write a program to create function calculation() such that it can accept two variables and calculate addition and subtraction. Also, it must return both addition and subtraction in a single return call.
 """
-"""***  YOUR CODE HERE ***"""
-def func1(*args):
-    
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod()
+"""*** YOUR CODE HERE ***"""
+def calculation(a, b):
+    # Your code
+    return a + b, a - b
+res = calculation(40, 10)
+print(res)
