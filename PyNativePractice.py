@@ -92,6 +92,7 @@ def factorial(x):
         result *= i
     return result
 
+
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
